@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4ea1d3;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+
+#resources_table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#resources_table td,
+#resources_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#resources_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#resources_table tr:hover {
+    background-color: #ddd;
+}
+
+#resources_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
